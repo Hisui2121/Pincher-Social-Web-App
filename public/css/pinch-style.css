@@ -1,0 +1,131 @@
+
+/* Main container */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 16px;
+}
+
+.pinch-card{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.pinch-body {
+    padding: 20px;
+    margin-bottom: 45px;
+}
+
+.pinch-row{
+    display: flex;
+    align-items: flex-start;
+    gap: 25px;
+}
+.pinch-container > * + * {
+    margin-left: 12px;
+}
+
+.pinch-content{
+    flex: 1;
+    min-width: 0;
+}
+
+.flex{
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+}
+
+.pinch-meta{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.pinch-header{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.pinch-author{
+    margin-top: 2px;    
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.text-updated{
+    font-size: small;
+    font-style: italic;
+    margin-top: 2px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.pinchdate{
+    margin-top: 2px;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.dot{
+    margin-top: 2px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.round-avatar {
+    width: 50px;        
+    height: 50x;       
+    border-radius: 50%; 
+}
+
+.pinch-message{
+    margin-top: 5px;
+    font-size: 14px;
+    line-height: 1.4;
+}
+
+.edit-container-pinch{
+    display: flex;
+    gap: 1px;
+    margin:none;
+    line-height: 1.4;
+}
+
+.edit-button{
+    font-size: small;
+    color: #000000;
+    background-color: transparent;
+    padding: 0.5rem 0.4rem;
+    font-weight: 500;
+    border: 1px transparent #505050;
+    border-radius: 0.25rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.edit-button:hover{
+    background-color: #35383d;
+    color: #ffffff;
+    border-color: transparent;
+}
+
+.delete-button{
+    font-size: small;
+    color: #a50000;
+    opacity: 70%;
+    background-color: transparent;
+    font-weight: 500;
+    padding: 0.5rem 0.5rem;
+    border: 1px transparent #210000;
+    border-radius: 0.25rem;
+    transition: all 0.2s ease-in-out;
+}
+
+.delete-button:hover{
+    opacity: -70px;
+    background-color: rgb(135, 0, 0);
+    color: #ffffff;
+    border-color: transparent;
+}

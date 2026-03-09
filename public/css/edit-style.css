@@ -1,0 +1,75 @@
+.edit-container{
+    max-width: 42rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.edit-h1{
+    padding:10px;
+    font-size:20px;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.edit-card-bg{
+    border-radius: 10px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0, rgba(0,0,0,0.06);
+    margin-top: 20px;
+}
+
+.edit-card-body{
+    padding: 0px;
+}
+
+.edit-form-control{
+    max-width: 800px;
+    padding:10px;
+}
+
+.edit-textarea{
+    resize: none;
+    border: 1px solid darkgray;
+    width: 100%;
+}
+
+.err-label-text{
+    color:red;
+    background-color: transparent;
+}
+
+.cancel-card{
+    display: flex;
+    gap: 10px;
+    margin-top: 1rem;
+}
+
+.cancel-btn{
+    color:rgb(0, 0, 0);
+    size: small;
+    background-color: transparent;
+    padding:0.25rem 0.5rem;
+    font-size:0.875rem;
+    border-radius: 0.2rem;
+}
+
+.cancel-btn:hover{
+    background-color: red;
+    color: white;
+}
+
+.cancel-submit-btn{
+    color: #fff;
+    background-color: #4a5968;
+    border-color: #282c30;
+    padding:0.25rem 0.5rem;
+    font-size:0.875rem;
+    border-radius: 0.2rem;
+}
+
+.cancel-submit-btn:hover{
+    background-color: #151515;
+    border-color:#121212;
+}
+

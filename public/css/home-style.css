@@ -1,0 +1,46 @@
+.card-bg{
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 3px 10px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0, rgba(0,0,0,0.06);
+    margin-top: 32px;
+}
+
+.card-form-body{
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 16px;
+}
+
+.form-control{
+    padding: 10px;
+    width:100%;
+}
+
+.form-message{
+    margin-top: 20px;
+    border-radius: 5px;
+    line-height: 2;
+    width:100%;
+    resize: none;
+    border:1px solid darkgrey;
+}
+
+.button-container{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    max-height: 100px;
+}
+
+.pinch-button{
+    border-radius: 5px;
+    height: 40px;
+    width: 70px;;
+    color: white;
+    background-color: black;
+    margin-bottom: 10px;
+
+}
+
+
